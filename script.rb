@@ -11,5 +11,5 @@ require 'selenium-webdriver'
 
 # end
 
-driver = Selenium::WebDriver.for :firefox
-driver.navigate_to "http://google.com"
+browser = Selenium::WebDriver.for :firefox
+browser.get "https://www.joefresh.com/ca/"
